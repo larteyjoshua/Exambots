@@ -1,0 +1,36 @@
+Computer graphics is an art of drawing pictures on computer screens with the help of programming.It involves computations, creation, and manipulation of data.In other words, we can say that computer graphics is a rendering tool for the generation and manipulation of images.
+
+Cathode Ray Tube
+The primary output device in a graphical system is the video monitor.The main element of a video monitor is the Cathode Ray Tube CRT, shown in the following illustration
+The operation of CRT is very simple 
+The electron gun emits a beam of electrons cathoderays
+The electron beam passes through focusing and deflection systems that direct it towards specified positions on the phosphor-coated screen
+When the beam hits the screen, the phosphor emits a small spot of light at each position contacted by the electron beam
+It redraws the picture by directing the electron beam back over the same screen points quickly.
+
+Raster Scan
+In a raster scan system, the electron beam is swept across the screen, one row at a time from top to bottom.As the electron beam moves across each row, the beam intensity is turned on and off to create a pattern of illuminated spots
+Picture definition is stored in memory area called the Refresh Buffer or Frame Buffer.This memory area holds the set of intensity values for all the screen points. Stored intensity values are then retrieved from the refresh buffer and “painted” on the screen one row scanline at a time as shown in the following illustration
+Each screen point is referred to as a pixel pictureelement or pel.At the end of each scan line, the electron beam returns to the left side of the screen to begin displaying the next scan line.
+
+Random Scan VectorScan
+In this technique, the electron beam is directed only to the part of the screen where the picture is to be drawn rather than scanning from left to right and top to bottom as in raster scan.It is also called vector display, stroke-writing display, or calligraphic display
+Picture definition is stored as a set of line-drawing commands in an area of memory referred to as the refresh display file.To display a specified picture, the system cycles through the set of commands in the display file, drawing each component line in turn.After all the line-drawing commands are processed, the system cycles back to the first line command in the list
+Random-scan displays are designed to draw all the component lines of a picture 30 to 60 times each second.
+
+Application of Computer Graphics
+Computer Graphics has numerous applications, some of which are listed below 
+Computer graphics user interfaces GUIs − A graphic, mouse-oriented paradigm which allows the user to interact with a computer
+Business presentation graphics − "A picture is worth a thousand words"
+Cartography − Drawing maps
+Weather Maps − Real-time mapping, symbolic representations
+Satellite Imaging − Geodesic images
+Photo Enhancement − Sharpening blurred photos
+Medical imaging − MRIs, CAT scans, etc. - Non-invasive internal examination
+Engineering drawings − mechanical, electrical, civil, etc. - Replacing the blueprints of the past
+Typography − The use of character images in publishing - replacing the hard type of the past
+Architecture − Construction plans, exterior sketches - replacing the blueprints and hand drawings of the past
+Art − Computers provide a new medium for artists
+Training − Flight simulators, computer aided instruction, etc
+Entertainment − Movies and games
+Simulation and modeling − Replacing physical modeling and enactments.
